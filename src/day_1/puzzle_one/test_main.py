@@ -19,8 +19,8 @@ def test_retrieve_numbers_from_text():
 
 def test_sum_of_calibration_document():
     input = '''1abc2
-    pqr3stu8vwx
-    a1b2c3d4e5f
-    treb7uchet'''
+pqr3stu8vwx
+a1b2c3d4e5f
+treb7uchet'''
 
     assert sum_of_calibration_document(input) == 142
