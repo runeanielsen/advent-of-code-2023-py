@@ -30,6 +30,3 @@ def sum_of_calibration_document(input):
     return sum(
         int(combine_first_and_last(retrieve_numbers_from_text(line)))
         for line in input.splitlines())
-
-with open('calibration.txt', 'r') as file:
-    print(sum_of_calibration_document(file.read()))

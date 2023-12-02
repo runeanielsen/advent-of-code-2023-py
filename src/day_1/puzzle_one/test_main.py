@@ -24,3 +24,10 @@ a1b2c3d4e5f
 treb7uchet'''
 
     assert sum_of_calibration_document(input) == 142
+
+def test_sum_of_calibration_document_puzzle_input():
+   input = ''
+   with open('calibration.txt', 'r') as file:
+      input = file.read()
+
+   assert sum_of_calibration_document(input) == 56506

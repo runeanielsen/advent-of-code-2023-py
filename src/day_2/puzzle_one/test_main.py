@@ -85,7 +85,7 @@ Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green'''
 
     assert sum_of_possible_games(text) == 8
 
-def test_sum_of_possible_games_big_input():
+def test_sum_of_possible_games_puzzle_input():
     text = ''
     with open('games.txt', 'r') as file:
         text = file.read()

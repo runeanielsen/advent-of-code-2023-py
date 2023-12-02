@@ -50,3 +50,10 @@ zoneight234
 7pqrstsixteen'''
 
     assert sum_of_calibration_document(input) == 281
+
+def test_sum_of_calibration_puzzle_input():
+    input = ''
+    with open('calibration.txt', 'r') as file:
+        input = file.read()
+
+    assert sum_of_calibration_document(input) == 56017
