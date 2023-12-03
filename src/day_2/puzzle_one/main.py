@@ -18,9 +18,9 @@ def parse_game(game):
     return game_info
 
 def is_possible_game(game_info):
-    possible_max_value_red = 12;
-    possible_max_value_green = 13;
-    possible_max_value_blue = 14;
+    possible_max_value_red = 12
+    possible_max_value_green = 13
+    possible_max_value_blue = 14
 
     return (
         all(count <= possible_max_value_red for count in game_info['red']) and
